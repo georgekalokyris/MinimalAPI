@@ -11,7 +11,7 @@ builder.Services.AddCors(options =>
         .AllowAnyHeader()
         .WithOrigins("http://localhost:3000", "htpps://appname.azurestaticapps.net");
     });
-});
+}); 
 
 // Add services to the container.
 builder.Services.AddEndpointsApiExplorer();
